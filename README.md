@@ -78,8 +78,23 @@ Also you can set the name to whatever you want.
 
 ![image](https://github.com/user-attachments/assets/26ffd992-d3b0-4cfb-aa6e-5116dfd6afa4)
 
+## Cloning the repository
 
+Now we're going to ensure everything has been configured correctly
 
+1. Clone this git repo. Go to New > Project From Version Control
 
+![image](https://github.com/user-attachments/assets/ab60ef0e-1050-454c-aed5-22681a75d2ab)
 
+2. Paste the url: https://github.com/RonaldyK/STM32L432KC-Boilerplate.git
 
+![image](https://github.com/user-attachments/assets/58c9af1a-8ed1-48d3-8acf-0b18cb0125b4)
+
+3. After you're done cloning you're going to configure your build profile to use the toolchain we just configured above. Once you have selected it press Ok 
+
+![image](https://github.com/user-attachments/assets/e3e0062f-8909-4aa9-a19b-4c8f814c8abd)
+
+4. That should be the final step! I have set up the openocd run configuration inside the repository so you
+ won't have to manually choose your board, all that's left to do is to press the run icon and if everything is set up correctly your exectuable should compile and be downloaded on to your L432 board!
+
+![image](https://github.com/user-attachments/assets/a6552e2b-b376-46e5-bacd-d80412740a20)
